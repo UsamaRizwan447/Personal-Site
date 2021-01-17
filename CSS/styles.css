@@ -1,0 +1,161 @@
+
+/*********************************************************** CSS for body *************************************************************/
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+/*********************************************************** CSS for headings *************************************************************/
+h1 {
+  margin-top: 30 auto 0 auto;
+  margin-bottom: 0px;
+  font-size: 5.62rem;
+  color: #fd8c04;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  margin-top: 0 auto 50 auto;
+  color: #fd8c04;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  border-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+color: #fd8c04;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+a {
+  color: #34626c;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffd5cd;
+}
+hr {
+  border: dotted;
+  border-bottom: none;
+  border-color: grey;
+  border-width: 7px;
+  width: 5%;
+
+  margin: 100px auto 100px auto;
+
+}
+
+/*********************************************************** CSS for spans& classes *************************************************************/
+.sci {
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #ffd5cd;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+/*********************************************************** CSS for images *************************************************************/
+.top-cloud {
+  width: 200px;
+  height: 100px;
+  position:absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  width: 200px;
+  height: 100px;
+  position:absolute;
+  left: 240px;
+  bottom: 200px;
+}
+
+
+.mountain {
+  width: 700px;
+  height: 400px;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+}
+
+/********* Coder image*/
+.skill-img1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+/********* car image*/
+.skill-img2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/*********************************************************** CSS for containers *************************************************************/
+.top-container {
+
+  background-color: #f8f7de;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #fd8c04;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+
+.myButton {
+  background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:7px;
+	border:1px solid #f59e1b;
+	display:inline-block;
+	cursor:pointer;
+	color:#2e112e;
+  font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 2px 50px #ffee66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color:#ffab23;
+  color: #2e112e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
